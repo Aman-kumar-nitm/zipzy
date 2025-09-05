@@ -183,7 +183,7 @@ const PlaceOrder = () => {
         <span className="font-semibold text-orange-500 " onClick={(e)=>setPaymentMethod('COD')}>Cash on Delivery</span>
       </label>
         </div>
-        <button type="submit" className='px-4 py-2 bg-black rounded-sm text-white text-sm font-semibold cursor-pointer text-center mx-auto block my-10' onClick={()=>navigate('/order')}>Place Order</button>
+        <button type="submit" className='px-4 py-2 bg-black rounded-sm text-white text-sm font-semibold cursor-pointer text-center mx-auto block my-10'>Place Order</button>
 
       </div>
       
