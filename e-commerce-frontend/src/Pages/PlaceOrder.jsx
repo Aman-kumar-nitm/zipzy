@@ -49,7 +49,7 @@ const PlaceOrder = () => {
 
       switch(paymentMethod){
         case 'COD':
-        const response=await axios.post(backendUrl+'/api/order/stripe',orderData,{headers:{token}});
+        const response=await axios.post(backendUrl+'/api/order/place',orderData,{headers:{token}});
         console.log(response);
       if(response.data.success){
         setCartItems({});
